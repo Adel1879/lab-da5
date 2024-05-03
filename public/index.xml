@@ -6,6 +6,14 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 21:02:57 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the DevOps Lab</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Fri, 03 May 2024 21:02:57 +0530</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Activity 1: Introduction to Docker In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.&#xA;Tasks: Task 0: Prerequisites Ensure you have Docker installed on your machine.</description>
+    </item>
   </channel>
 </rss>

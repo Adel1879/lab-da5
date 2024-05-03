@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Welcome to the DevOps Lab | My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Activity 1: Introduction to Docker In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.
+Tasks: Task 0: Prerequisites Ensure you have Docker installed on your machine.">
+    <meta name="generator" content="Hugo 0.125.5">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/my-first-post/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/my-first-post/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Welcome to the DevOps Lab">
+  <meta property="og:description" content="Activity 1: Introduction to Docker In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.
+Tasks: Task 0: Prerequisites Ensure you have Docker installed on your machine.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-03T21:02:57+05:30">
+    <meta property="article:modified_time" content="2024-05-03T21:02:57+05:30">
+
+  <meta itemprop="name" content="Welcome to the DevOps Lab">
+  <meta itemprop="description" content="Activity 1: Introduction to Docker In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.
+Tasks: Task 0: Prerequisites Ensure you have Docker installed on your machine.">
+  <meta itemprop="datePublished" content="2024-05-03T21:02:57+05:30">
+  <meta itemprop="dateModified" content="2024-05-03T21:02:57+05:30">
+  <meta itemprop="wordCount" content="422"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Welcome to the DevOps Lab">
+<meta name="twitter:description" content="Activity 1: Introduction to Docker In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.
+Tasks: Task 0: Prerequisites Ensure you have Docker installed on your machine.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Welcome to the DevOps Lab</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-05-03T21:02:57+05:30">May 3, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h2 id="activity-1-introduction-to-docker">Activity 1: Introduction to Docker</h2>
+<p>In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.</p>
+<h3 id="tasks">Tasks:</h3>
+<ul>
+<li>
+<p><strong>Task 0: Prerequisites</strong>
+Ensure you have Docker installed on your machine.</p>
+</li>
+<li>
+<p><strong>Task 1: Run some simple Docker containers</strong>
+Start by running some pre-built Docker containers to get familiar with basic Docker commands.</p>
+</li>
+<li>
+<p><strong>Task 2: Package and run a custom app using Docker</strong>
+Create a Dockerfile for a custom application, build it into a Docker image, and run it as a container.</p>
+</li>
+<li>
+<p><strong>Task 3: Modify a Running Website</strong>
+Explore how to modify a running website using bind mounts.</p>
+</li>
+</ul>
+<h3 id="video-explanation">Video Explanation:</h3>
+<p><a href="LINK_OF_VIDEO_EXPLANATION">Watch the video explanation here</a></p>
+<h3 id="implementation-guide">Implementation Guide:</h3>
+<p><a href="LINK_OF_GOOGLE_DOC_OF_IMPLEMENTATION">Access the Google Doc with detailed implementation steps</a></p>
+<hr>
+<h2 id="activity-2-setting-up-minikube-as-a-ci-step-in-github-actions">Activity 2: Setting up Minikube as a CI Step in GitHub Actions</h2>
+<p>In this activity, we&rsquo;ll set up Minikube as a continuous integration (CI) step in GitHub Actions to deploy a Node.js app to Kubernetes.</p>
+<h3 id="tasks-1">Tasks:</h3>
+<ol>
+<li><strong>Create Dockerfile for Node.js App</strong></li>
+<li><strong>Create package.json file</strong></li>
+<li><strong>Create Server.js file</strong></li>
+<li><strong>Create Kubernetes Deployment and Service file</strong></li>
+<li><strong>Set up GitHub Actions Workflow to Deploy to Minikube using GitHub Actions</strong></li>
+</ol>
+<h3 id="video-explanation-1">Video Explanation:</h3>
+<p><a href="LINK_OF_ACTIVITY2_VIDEO_EXPLANATION">Watch the video explanation here</a></p>
+<h3 id="github-repository">GitHub Repository:</h3>
+<p><a href="LINK_OF_ACTIVITY2_GITHUB_REPO">Access the GitHub repository here</a></p>
+<hr>
+<h2 id="activity-3-implementing-cicd-pipeline-with-github-actions-and-github-pages-in-a-react-app">Activity 3: Implementing CI/CD Pipeline with GitHub Actions and GitHub Pages in a React App</h2>
+<p>In this activity, we will set up a CI/CD pipeline using GitHub Actions and deploy a React app to GitHub Pages.</p>
+<h3 id="steps">Steps:</h3>
+<ol>
+<li>
+<p>Create a basic React application using Vite.</p>
+</li>
+<li>
+<p>Create a GitHub repository for our project.</p>
+</li>
+<li>
+<p>Set up CI/CD workflow with GitHub Actions in our project directory. See the workflow file below.</p>
+</li>
+</ol>
+<h3 id="github-repository-1">GitHub Repository:</h3>
+<p><a href="LINK_OF_ACTIVITY3_GITHUB_REPO">Access the GitHub repository here</a></p>
+<h3 id="video-explanation-2">Video Explanation:</h3>
+<p><a href="LINK_OF_ACTIVITY3_VIDEO_EXPLANATION">Watch the video explanation here</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">DevOps-GitHubActions</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>: <span style="color:#ae81ff">push</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Build Job</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">build</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Checkout Code</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v3</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Install Node</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/setup-node@v3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">node-version</span>: <span style="color:#ae81ff">18.</span><span style="color:#ae81ff">x</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Install Dependencies</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">run</span>: <span style="color:#ae81ff">npm install</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build Project</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">run</span>: <span style="color:#ae81ff">npm run build</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Upload artifact to enable deployment</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/upload-artifact@v3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">name</span>: <span style="color:#ae81ff">production-files</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">path</span>: <span style="color:#ae81ff">./dist</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Deploy Job</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">deploy</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># Add a dependency to the build job</span>
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">needs</span>: <span style="color:#ae81ff">build</span>
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># Specify runner + deployment step</span>
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Download artifact</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/download-artifact@v3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">name</span>: <span style="color:#ae81ff">production-files</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">path</span>: <span style="color:#ae81ff">./dist</span>
+</span></span><span style="display:flex;"><span>   - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy to GitHub Pages</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">peaceiris/actions-gh-pages@v3</span>
+</span></span><span style="display:flex;"><span>     <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">github_token</span>: <span style="color:#ae81ff">${{ secrets.TOKEN }}</span>
+</span></span><span style="display:flex;"><span>       <span style="color:#f92672">publish_dir</span>: <span style="color:#ae81ff">./dist</span>
+</span></span></code></pre></div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
