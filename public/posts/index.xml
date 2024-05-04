@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 03 May 2024 21:02:57 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to My Colorful Motivation Corner 🌈</title>
+      <title>Welcome to the DevOps Lab</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 03 May 2024 21:02:57 +0530</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Embrace Your Journey &amp;ldquo;The journey of a thousand miles begins with one step.&amp;rdquo;&#xA;Stay Determined &amp;ldquo;Success is not final, failure is not fatal: It is the courage to continue that counts.&amp;rdquo;&#xA;Believe in Yourself &amp;ldquo;Believe you can and you&amp;rsquo;re halfway there.&amp;rdquo;&#xA;Embrace Challenges &amp;ldquo;The only way to do great work is to love what you do.&amp;rdquo;&#xA;Keep Moving Forward &amp;ldquo;Every day is a new beginning. Take a deep breath, smile, and start again.</description>
+      <description>Activity 1: Introduction to Docker In this lab, we will look at some basic Docker commands and a simple build-ship-run workflow. We’ll start by running some simple containers, then we’ll use a Dockerfile to build a custom app. Finally, we’ll look at how to use bind mounts to modify a running container as you might if you were actively developing using Docker.&#xA;Tasks: Task 0: Prerequisites Ensure you have Docker installed on your machine.</description>
     </item>
   </channel>
 </rss>
